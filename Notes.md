@@ -7,14 +7,23 @@ A container in Docker is a lightweight, portable, and isolated environment that 
 
 ### cmd
  docker -v          ->for version checking
+ 
  docker run -it demo        ->for running a container which  will have demo image  -it stands for interactive tty
+ 
  cntrl+D        ->to close the container
+ 
 docker container ls          -> this will show all the working contaners of that docker image
+
 linux commands work on docker (ls,cd,mkdir)
+
 docker start       -> to start the already made container
+
 docker stop       -> to stop the already made container
+
 docker exec -it        -> to excute completely in an isolated container 
+
 docker run -it <image_name>
+
 docker exec <container_name> >command>
 
 ### Images
