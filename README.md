@@ -17,12 +17,12 @@ docker exec -it        -> to excute completely in an isolated container
 docker run -it <image_name>
 docker exec <container_name> >command>
 
-
-
 ### Images
 Images are OS on which containers run.
 custom image can be made based on the resources and tools required.
 (Docker images are lightweight, read-only templates used to create containers. They include the application code, runtime, libraries, and dependencies needed to run an application.)
 
 (hub.docker.com) is where the docker gets its info if needed kinda like github for docker. If docker does not find any image or anything it will search from this hub only.
+
+![image](https://github.com/user-attachments/assets/7910c58d-546f-487b-bd21-5f09ea283e89)
 
