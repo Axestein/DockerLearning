@@ -35,3 +35,12 @@ custom image can be made based on the resources and tools required.
 
 ![image](https://github.com/user-attachments/assets/7910c58d-546f-487b-bd21-5f09ea283e89)
 
+### Port Mapping
+Port mapping in Docker allows you to expose a container's internal port to the host machine, enabling communication with the container. It is done using the `-p` option in the `docker run` command.
+cmd example - docker run -p 8080:80 nginx
+
+### Containerize Nodejs Application with Docker
+ make a Dockerfile (Keep the name of the file same)
+ refer to the file Dockerfile
+ to run it type -> docker build -t youtube-nodejs . 
+ (NOTE: Here the -t means tag and . means the dockerfile is in the current folder directory)
