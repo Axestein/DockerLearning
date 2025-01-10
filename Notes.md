@@ -5,6 +5,8 @@ Docker solves the problem of inconsistent environments by providing lightweight,
 ### Container 
 A container in Docker is a lightweight, portable, and isolated environment that packages an application along with its dependencies, ensuring it runs consistently across different systems.
 
+![image](https://github.com/user-attachments/assets/88408f07-958d-4f88-93f0-e436055e491c)
+
 ### cmd
  docker -v          ->for version checking
  
@@ -140,3 +142,5 @@ view the file other file i attached
     `docker-compose exec web bash`
     
     This opens a shell (`bash`) in the running `web` container.
+
+(use: https://labs.play-with-docker.com/ for testing)
