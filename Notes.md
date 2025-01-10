@@ -173,3 +173,10 @@ view the file other file i attached
     This opens a shell (`bash`) in the running `web` container.
 
 (use: https://labs.play-with-docker.com/ for testing)
+
+
+
+![Screenshot 2025-01-10 163021](https://github.com/user-attachments/assets/19d2385d-6747-4e3e-a5c0-bd88bb231fd7)
+
+![Screenshot 2025-01-10 163103](https://github.com/user-attachments/assets/98822897-aeeb-46f8-b5f0-1a75f7d24821)
+
