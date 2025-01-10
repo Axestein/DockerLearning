@@ -2,6 +2,14 @@
 
 Docker solves the problem of inconsistent environments by providing lightweight, portable containers that ensure applications run the same across different systems. It simplifies the deployment, scaling, and management of applications by isolating them in containers with all necessary dependencies.
 
+**Benifits:**
+
+=> Docker makes it easier to package applications and add to CI/CD pipelines.
+
+=> Docker helps you package dependencies with containers.
+
+=> Docker simplifies container technology to make creating and running containers easier.
+
 ### Container 
 A container in Docker is a lightweight, portable, and isolated environment that packages an application along with its dependencies, ensuring it runs consistently across different systems.
 (Containers are just a process (or a group of processes) running in isolation, which is achieved with Linux namespaces and control groups. Linux namespaces and control groups are features that are built into the Linux kernel. Other than the Linux kernel itself, there is nothing special about containers.
@@ -31,10 +39,28 @@ docker run -it <image_name>
 
 docker exec <container_name> >command>
 
+docker container run -t ubuntu top        -> docker container run command to run a container with the Ubuntu image by using the top command. The -t flag allocates a pseudo-TTY, which you need for the top command to work correctly
+
+docker container run --detach --publish 8081:27017 --name mongo mongo:3.4
+
+**TO REMOVE CONTAINER**
+
+$ docker container ls
+
+$ docker container stop [container id]
+
+$ docker system prune
+
 ### Images
 Images are OS on which containers run.
 custom image can be made based on the resources and tools required.
 (Docker images are lightweight, read-only templates used to create containers. They include the application code, runtime, libraries, and dependencies needed to run an application.)
+
+
+![Screenshot 2025-01-10 154022](https://github.com/user-attachments/assets/4478c0aa-d22f-45b4-ab95-a9ef1dcdff98)
+![Screenshot 2025-01-10 154124](https://github.com/user-attachments/assets/9031f89a-35bd-4201-b32d-78717aeed014)
+![Screenshot 2025-01-10 154101](https://github.com/user-attachments/assets/16dd0ef5-7d8f-4c8f-9abf-daac3d06fa71)
+
 
 (hub.docker.com) is where the docker gets its info if needed kinda like github for docker. If docker does not find any image or anything it will search from this hub only.
 
