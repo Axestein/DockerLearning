@@ -4,6 +4,9 @@ Docker solves the problem of inconsistent environments by providing lightweight,
 
 ### Container 
 A container in Docker is a lightweight, portable, and isolated environment that packages an application along with its dependencies, ensuring it runs consistently across different systems.
+(Containers are just a process (or a group of processes) running in isolation, which is achieved with Linux namespaces and control groups. Linux namespaces and control groups are features that are built into the Linux kernel. Other than the Linux kernel itself, there is nothing special about containers.
+
+What makes containers useful is the tooling that surrounds them. The labs in this course use Docker, which has been the understood standard tool for using containers to build applications. Docker provides developers and operators with a friendly interface to build, ship, and run containers on any environment.)
 
 ![image](https://github.com/user-attachments/assets/88408f07-958d-4f88-93f0-e436055e491c)
 
